@@ -15,3 +15,16 @@ public:
     // Memberikan akses ke manusia::showNilaiPelajar
     friend void manusia::showNilaiPelajar(pelajar &x);
 };
+// Definisi fungsi setelah deklarasi class pelajar
+void manusia::showNilaiPelajar(pelajar &x) {
+    cout << x.nilai << endl;
+}
+
+int main() {
+    manusia budi;
+    pelajar pbudi;
+
+    budi.showNilaiPelajar(pbudi);
+
+    return 0;
+}
