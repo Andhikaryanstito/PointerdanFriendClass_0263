@@ -17,7 +17,7 @@ class PersegiPanjang{
     }
     Lingkaran ol;
 
-};
+}; 
 
 class Lingkaran{
     int jarijari;
