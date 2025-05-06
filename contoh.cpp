@@ -26,4 +26,4 @@ class Lingkaran{
         cout <<"Masukkan jari-jari:";
         cin >> jarijari;
     }
-}
+} 
